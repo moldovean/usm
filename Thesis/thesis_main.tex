@@ -82,9 +82,8 @@
 \begin{document}
 \maketitle
 \begin{abstract}
-Markovian processes are already ubiquitous in a wide range of real world applications and serendipitously provide remarkable goodness of fit despite its simplistic mathematical model.  The Hidden Markov Model is the most suitable class among Markovian processes for modelling applications in Finance and Economics, yet the difficulties in estimating its parameters still present an issue for widespread adoption by the industry and academia. 
-
-This thesis is dedicated to surveying the methods and algorithms for estimating the latent parameters of HMMs. The first part of this thesis commences with simple Markovian processes using a hypothetical example for an upstream gas and oil company. The second part elaborates on methods and algorithms of the EM class for estimating latent state transition probabilities of Hidden Markov Models. 
+Markovian processes are already ubiquitous in a wide range of real world applications and serendipitously provide remarkable goodness of fit despite its simplistic mathematical model.  The more general Hidden Markov Model presents difficulties when estimating its parameters therefore limiting its widespread adoption by industry and academia. This thesis addresses this issue by surveying algorithms useful for estimating matrix coefficients of HMMs. 
+The first part commences with an introduction to simple Markovian processes and their applications in economics. The second part elaborates on methods and algorithms of the EM class for estimating latent state transition probabilities of Hidden Markov Models. 
 Once the transition probability matrix is determined we can use the dynamic programming and combinatorial methods proposed by \cite{Lozovanu15} for determining the state-time probabilities and the matrix of limiting probabilities in solving real world questions.
 
 Software implementations in Octave, Python and Julia are provided based on the open-source QuantEcon  and GHMM packages.
